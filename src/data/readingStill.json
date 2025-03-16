@@ -1,11 +1,11 @@
 [ {
     "title": "Astrophysics for People in a Hurry",
     "author": "Neil deGrasse Tyson",
-    "image": "reading/astro.jpeg"
+    "image": "astro.jpeg"
 },
 {
     "title": "Speech and Language Processing",
     "author": "Dan Jurafsky and James H. Martin",
-    "imae": "reading/slp.jpeg"
+    "image": "slp.jpeg"
 }
 ]

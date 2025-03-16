@@ -1,16 +1,20 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
+
+const getImageUrl = (imageName) => {
+    return new URL(`../../assets/projects/${imageName}`, import.meta.url).href;
+};
 
 export const ProjectCard = ({
-    project: { title, subtitle, description, link, imageSrc}, }) => {
+    project: { title, subtitle, description, link, image}, }) => {
     return (
         <div className={styles.container}>
         <a href={link} className={styles.projectWrapper}>
             <img
                 alt={title}
                 className={styles.image}
-                src={imageSrc}
+                src={getImageUrl(image)}
             />
             <div className={styles.projectOverlay}>
             <p className={styles.projectDescription}>{description}</p>

@@ -37,8 +37,9 @@
 }
 
 .aboutImg {
-    width: 50%;
+    max-width: 200px;
     z-index: 1;
+    border-radius: 75%;
 }
 
 .topBlur {

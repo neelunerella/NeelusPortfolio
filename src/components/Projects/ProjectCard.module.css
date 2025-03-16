@@ -16,7 +16,9 @@
     position: relative;
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
-    color: var(--color-text);
+    color: #132a53;
+    font-weight: 900;
+    justify-content: center;
 }
 
 .projectWrapper:hover {
@@ -25,6 +27,7 @@
 
 .image {
     margin-bottom: 26px;
+    align-items: center;
 }
 
 .title {
@@ -63,4 +66,5 @@
 
 .projectWrapper:hover .projectOverlay {
     opacity: 1;
+    background: white;
 }
