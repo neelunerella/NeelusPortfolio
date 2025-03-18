@@ -4,7 +4,7 @@ import { getImageUrl } from "../../utils";
 import img from "../../assets/about/NeeluPic.png";
 
 export const About = () => {
-    return <section className={styles.container}>
+    return <section className={styles.container} id="about">
         <div className={styles.content}>
             <h1 className={styles.title}>About</h1>
             <p className={styles.description}>

@@ -6,7 +6,7 @@ import currReading from "../../data/readingStill.json";
 
 export const Reading = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id = "reading">
             <div className={styles.content}>
                 <h1 className={styles.title}>Reading</h1>
                 <div className={styles.readingStill}>
