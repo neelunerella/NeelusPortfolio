@@ -15,6 +15,7 @@ If you are developing a production application, we recommend using TypeScript an
 In terminal, type in: 
 1. "npm install"
 2. "npm run dev"
+
 Copy the local host website into browser.
 
 ## Published Website using Netlify
